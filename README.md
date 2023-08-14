@@ -13,7 +13,7 @@
 2. Tkinter.simpledialog;
 3. Tkinter.messagebox.
 
-Įsirašyti reikiamas bibliotekas.
+Įsirašykite reikiamas bibliotekas.
 
 Paleiskite programą.
 
