@@ -13,9 +13,8 @@
 2. Tkinter.simpledialog;
 3. Tkinter.messagebox.
 
-**Įdiekite reikiamas bibliotekas: pip install -r requirements.txt.**<br>
-**Paleiskite programą.**<br>
-
+Įdiekite reikiamas bibliotekas: pip install -r requirements.txt.
+Paleiskite programą.
 
 **Autorius:**<br>
 Vilius Malinauskas
