@@ -261,17 +261,11 @@ class GaminioSkaiciuokleApp(tk.Tk):
         tipas = simpledialog.askinteger("Bortelio tipas", "Pasirinkite bortelio tipą:\n1-Status, 2-Monolitinis")
 
         if tipas is not None:
-            if tipas == 1:
+            if tipas == 1 or tipas == 2:
                 ilgis = simpledialog.askfloat("Įveskite ilgį", "Įveskite bortelio ilgį (metrais):")
                 if ilgis is not None:
                     self.gaminio_skaiciuokle.ivesti_borteli(tipas, ilgis)
                     messagebox.showinfo("Pranešimas", "Bortelis pridėtas sėkmingai!")
-            elif tipas == 2:
-                ilgis = simpledialog.askfloat("Įveskite ilgį", "Įveskite bortelio ilgį (metrais):")
-                if ilgis is not None:
-                    self.gaminio_skaiciuokle.ivesti_borteli(tipas, ilgis)
-                    messagebox.showinfo("Pranešimas", "Bortelis pridėtas sėkmingai!")
-
             else:
                 messagebox.showinfo("Klaida", "Įvedėte neteisingai. Bandykite dar kartą.")
 
