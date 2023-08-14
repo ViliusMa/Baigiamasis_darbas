@@ -1,10 +1,11 @@
 # Baigiamasis_darbas 
 
-Apie programą
+Apie programą:
 
 Ši programa leidžia apskaičiuoti busimą gaminio kainą.
 
 Skaičiavimo eiga:
+
 Pridedami reikalingi kainą lemiantys pasirinkimai;
 Suvedami būsimo gaminio matmenys;
 Skaičiuojama kaina.
