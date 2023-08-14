@@ -95,15 +95,15 @@ class GaminioSkaiciuokle:
         total_kaina = 0
 
         for stalvirsis in self.stalvirsiai:
-            if stalvirsis.tipas == 1:  # Standartas
+            if stalvirsis.tipas == 1:
                 total_kaina += 235 * stalvirsis.ilgis
-            if stalvirsis.tipas == 2:  # Nestandartas
+            if stalvirsis.tipas == 2:
                 total_kaina += 350 * stalvirsis.ilgis * stalvirsis.plotis
 
         for bortelis in self.borteliai:
-            if bortelis.tipas == 1:  # Status
+            if bortelis.tipas == 1:
                 total_kaina += 40 * bortelis.ilgis
-            if bortelis.tipas == 2:  # Monolitinis
+            if bortelis.tipas == 2:
                 total_kaina += 65 * bortelis.ilgis
 
         for kriaukle in self.kriaukles:
