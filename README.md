@@ -1,6 +1,7 @@
 # Baigiamasis_darbas 
 
 Apie programą
+
 Ši programa leidžia apskaičiuoti busimą gaminio kainą.
 
 Skaičiavimo eiga:
