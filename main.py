@@ -107,53 +107,53 @@ class GaminioSkaiciuokle:
                 total_kaina += 65 * bortelis.ilgis
 
         for kriaukle in self.kriaukles:
-            if kriaukle.tipas == 1:  # Maža plautuvė
+            if kriaukle.tipas == 1:
                 total_kaina += 205
-            if kriaukle.tipas == 2:  # Vidutinė plautuvė
+            if kriaukle.tipas == 2:
                 total_kaina += 340
-            if kriaukle.tipas == 3:  # Didelė plautuvė
+            if kriaukle.tipas == 3:
                 total_kaina += 445
-            if kriaukle.tipas == 4:  # Plautuvių komplektas
+            if kriaukle.tipas == 4:
                 total_kaina += 535
-            if kriaukle.tipas == 5:  # Kliento plautuvė
+            if kriaukle.tipas == 5:
                 total_kaina += 180
-            if kriaukle.tipas == 6:  # Quadro kriauklė
+            if kriaukle.tipas == 6:
                 total_kaina += 340
-            if kriaukle.tipas == 7:  # Elipse kriauklė
+            if kriaukle.tipas == 7:
                 total_kaina += 200
-            if kriaukle.tipas == 8:  # Kriauklė su paslėptu nubėgimu
+            if kriaukle.tipas == 8:
                 total_kaina += 720
 
         for palange in self.palanges:
             total_kaina += 350 * palange.ilgis * palange.plotis
 
         for sieninis_skydas in self.sieniniai_skydai:
-            if sieninis_skydas.tipas == 1:  # Status sieninis skydas
+            if sieninis_skydas.tipas == 1:
                 total_kaina += 205 * sieninis_skydas.ilgis * sieninis_skydas.plotis
-            if sieninis_skydas.tipas == 2:  # Monolitinis sieninis skydas
+            if sieninis_skydas.tipas == 2:
                 total_kaina += 310 * sieninis_skydas.ilgis * sieninis_skydas.plotis
 
         for krastine_apdirbimas in self.krastines_apdirbimai:
             total_kaina += 21 * krastine_apdirbimas.ilgis
 
         for montavimas in self.montavimai:
-            if montavimas.tipas == 1:  # Lieto marmuro kriauklės
+            if montavimas.tipas == 1:
                 total_kaina += 200
-            if montavimas.tipas == 2:  # Tiesus stalviršis
+            if montavimas.tipas == 2:
                 total_kaina += 300
-            if montavimas.tipas == 3:  # Kampinis stalviršis
+            if montavimas.tipas == 3:
                 total_kaina += 350
-            if montavimas.tipas == 4:  # Stalviršis su palange/sala
+            if montavimas.tipas == 4:
                 total_kaina += 400
-            if montavimas.tipas == 5:  # Stalviršis su stačiais sieniniais skydais
+            if montavimas.tipas == 5:
                 total_kaina += 450
-            if montavimas.tipas == 6:  # Stalviršis su monolitiniais sieniniais skydais
+            if montavimas.tipas == 6:
                 total_kaina += 500
 
         for pristatymas in self.pristatymai:
-            if pristatymas.tipas == 1:  # Standartinis pristatymas
+            if pristatymas.tipas == 1:
                 total_kaina += 100
-            if pristatymas.tipas == 2:  # Pristatymas Neringoje
+            if pristatymas.tipas == 2:
                 total_kaina += 150
 
         return total_kaina
