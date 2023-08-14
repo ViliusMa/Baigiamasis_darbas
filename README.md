@@ -7,12 +7,18 @@ Apie programą:
 Skaičiavimo eiga:
 
 Pridedami reikalingi kainą lemiantys pasirinkimai;
+
 Suvedami būsimo gaminio matmenys;
+
 Skaičiuojama kaina.
 
+
 Programai reikalingos bibliotekos:
+
 Tkinter
+
 Tkinter.simpledialog
+
 Tkinter.messagebox
 
 Įdiekite reikiamas bibliotekas: pip install -r requirements.txt
