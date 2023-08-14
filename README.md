@@ -4,6 +4,7 @@ Apie programą:
 
 Ši programa leidžia apskaičiuoti busimą gaminio kainą.
 
+
 Skaičiavimo eiga:
 
 Pridedami reikalingi kainą lemiantys pasirinkimai;
@@ -21,9 +22,12 @@ Tkinter.simpledialog
 
 Tkinter.messagebox
 
+
 Įdiekite reikiamas bibliotekas: pip install -r requirements.txt
+
 Paleiskite programą.
 
 
 Autorius
+
 Vilius Malinauskas
