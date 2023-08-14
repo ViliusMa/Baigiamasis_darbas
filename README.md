@@ -15,7 +15,7 @@
 
 
 Įdiekite reikiamas bibliotekas: pip install -r requirements.txt.
-Įdiekite reikiamas bibliotekas: pip install -r requirements.txt.
+
 Paleiskite programą.
 
 **Autorius:**<br>
