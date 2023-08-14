@@ -5,6 +5,7 @@ Apie programą:
 Ši programa leidžia apskaičiuoti busimą gaminio kainą.
 
 
+
 Skaičiavimo eiga:
 
 Pridedami reikalingi kainą lemiantys pasirinkimai;
